@@ -18,31 +18,41 @@
     
             <div class="inputgroup">
                 <p class="selector">Please Select an Age Range for your dog:</p>
-                <button type="button" class="loginbutton1" id="script" onclick="exec(python3 puppy.py)">Puppy</button>
-                <button type="button" class="loginbutton1" id="script" onclick="exec(python3 adult.py)">Adult</button>
-                <button type="button" class="loginbutton1" id="script" onclick="exec(python3 senior.py)">Senior</button>
+                <button type="button" class="loginbutton1" id="Age1" onclick="lgb1()">Puppy</button>
+                <button type="button" class="loginbutton1" id="Age2" onclick="lgb2()">Adult</button>
+                <button type="button" class="loginbutton1" id="Age3" onclick="lgb3()">Senior</button>
             </div> 
+            <p>Age Selected: </p>
+            <div id="outAge"></div>
     
             <div class="inputgroup">
                 <p class="selector">Please Select a Gender for your dog:</p>
-                <button type="button" class="loginbutton1" id="script" onclick="exec(python3 male.py)">Male</button>
-                <button type="button" class="loginbutton1" id="script" onclick="exec(python3 female.py)">Female</button>
-                
+                <button type="button" class="loginbutton1" id="male" onclick="lgb4()">Male</button>
+                <button type="button" class="loginbutton1" id="female" onclick="lgb5()">Female</button>
             </div> 
+            <p>Gender Selected: </p>
+            <div id="outGender"></div>
+
             <div class="inputgroup"> 
                 <p class="selector">PLease Select the Best Size for your dog: </p>
-                <button type="button" class="loginbutton1" id="script" onclick="exec(python3 small.py)">Small: x-y lbs</button>
-                <button type="button" class="loginbutton1" id="script" onclick="exec(python3 medium.py)">Medium: x-y lbs</button>
-                <button type="button" class="loginbutton1" id="script" onclick="exec(python3 large.py)">Large: x-y lbs</button>
-            </div> 
+                <button type="button" class="loginbutton1" id="size" onclick="lgb6()">Small</button>
+                <button type="button" class="loginbutton1" id="size" onclick="lgb7()">Medium</button>
+                <button type="button" class="loginbutton1" id="size" onclick="lgb8()">Large</button>
+             
+            <p>Size Selected: </p>
+            <div id="outSize"></div>
+
+            </div>
             <div class="inputgroup">
                 <p class="selector">Please Select the option that best suites your Dog's Activity Levels:</p>
-                <button type="button" class="loginbutton1" id="script" onclick="exec(python3 low.py)">Low</button>
-                <button type="button" class="loginbutton1" id="script" onclick="exec(python3 average.py)">Medium</button>
-                <button type="button" class="loginbutton1" id="script" onclick="exec(python3 active.py)">High</button>
+                <button type="button" class="loginbutton1" id="activity" onclick="lgb9()">Low</button>
+                <button type="button" class="loginbutton1" id="activity" onclick="lgb10()">Medium</button>
+                <button type="button" class="loginbutton1" id="activity" onclick="lgb11()">High</button>
             </div>
+            <p>Activity Selected: </p>
+            <div id="outAct"></div>
+
             
-            <div id="userTraceback"></div>
         </form>
     
     
@@ -53,6 +63,66 @@
             <a href="email.html"><button type="button" class="loginbutton1">Next</button></a>
         </ul>
     </div>
+
+    
+    <script>
+
+        function lgb1(){
+            var age = "Puppy";
+            document.getElementById("outAge").innerHTML = age;
+            return;
+        }
+        function lgb2(){
+            var age = "Adult";
+            document.getElementById("outAge").innerHTML = age;
+            return;
+        }
+        function lgb3(){
+            var age = "Senior";
+            document.getElementById("outAge").innerHTML = age;
+            return;
+        }
+        function lgb4(){
+            var age = "Male";
+            document.getElementById("outGender").innerHTML = age;
+            return;
+        }
+        function lgb5(){
+            var age = "Female";
+            document.getElementById("outGender").innerHTML = age;
+            return;
+        }
+        function lgb6(){
+            var age = "Small";
+            document.getElementById("outSize").innerHTML = age;
+            return;
+        }
+        function lgb7(){
+            var age = "Medium";
+            document.getElementById("outSize").innerHTML = age;
+            return;
+        }
+        function lgb8(){
+            var age = "Large";
+            document.getElementById("outSize").innerHTML = age;
+            return;
+        }
+        function lgb9(){
+            var age = "Low";
+            document.getElementById("outAct").innerHTML = age;
+            return;
+        }
+        function lgb10(){
+            var age = "Medium";
+            document.getElementById("outAct").innerHTML = age;
+            return;
+        }
+        function lgb11(){
+            var age = "High";
+            document.getElementById("outAct").innerHTML = age;
+            return;
+        }
+    </script>
 
     <script src="main.js"></script>
 </body>
