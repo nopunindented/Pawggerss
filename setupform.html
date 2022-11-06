@@ -45,7 +45,7 @@
             </div>
             <div class="inputgroup">
                 <p class="selector">Please Select the option that best suites your Dog's Activity Levels:</p>
-                <button type="button" class="loginbutton1" id="activity" onclick="lgb9()">Low</button>
+                <button type="button" class="loginbutton1" id="activity" onclick="lgb9()" >Low</button>
                 <button type="button" class="loginbutton1" id="activity" onclick="lgb10()">Medium</button>
                 <button type="button" class="loginbutton1" id="activity" onclick="lgb11()">High</button>
             </div>
@@ -60,6 +60,8 @@
 
     <div>
         <ul>
+            <p>The Recomened Food amount for your dog is: </p>
+            <div id="FoodOut"></div>
             <a href="email.html"><button type="button" class="loginbutton1">Next</button></a>
         </ul>
     </div>
@@ -83,45 +85,59 @@
             return;
         }
         function lgb4(){
-            var age = "Male";
-            document.getElementById("outGender").innerHTML = age;
+            var gen = "Male";
+            document.getElementById("outGender").innerHTML = gen;
             return;
         }
         function lgb5(){
-            var age = "Female";
-            document.getElementById("outGender").innerHTML = age;
+            var gen = "Female";
+            document.getElementById("outGender").innerHTML = gen;
             return;
         }
         function lgb6(){
-            var age = "Small";
-            document.getElementById("outSize").innerHTML = age;
+            var size = "Small";
+            document.getElementById("outSize").innerHTML = size;
             return;
         }
         function lgb7(){
-            var age = "Medium";
-            document.getElementById("outSize").innerHTML = age;
+            var size = "Medium";
+            document.getElementById("outSize").innerHTML = size;
             return;
         }
         function lgb8(){
-            var age = "Large";
-            document.getElementById("outSize").innerHTML = age;
+            var size = "Large";
+            document.getElementById("outSize").innerHTML = size;
             return;
         }
         function lgb9(){
-            var age = "Low";
-            document.getElementById("outAct").innerHTML = age;
+            var act = "Low";
+            document.getElementById("outAct").innerHTML = act;
             return;
         }
         function lgb10(){
-            var age = "Medium";
-            document.getElementById("outAct").innerHTML = age;
+            var act = "Medium";
+            document.getElementById("outAct").innerHTML = act;
             return;
         }
         function lgb11(){
-            var age = "High";
-            document.getElementById("outAct").innerHTML = age;
+            var act = "High";
+            document.getElementById("outAct").innerHTML = act;
             return;
         }
+
+        var age = document.getElementById("outAge").innerHTML;
+        var size = document.getElementById("outSize").innerHTML;
+        var gen = document.getElementById("outGender").innerHTML;
+        var act = document.getElementById("outAct").innerHTML;
+        
+        if(age == "Puppy"){
+            document.getElementById("FoodOut").innerHTML = "1 1/4 Cups/Meal";
+        }else if(age == "Adult"){
+            document.getElementById("FoodOut").innerHTML = "2 2/3Cups/Meal";
+        }else if(age == "Senior"){
+            document.getElementById("FoodOut").innerHTML = "2 1/4 Cups/Meal";
+        }
+
     </script>
 
     <script src="main.js"></script>
