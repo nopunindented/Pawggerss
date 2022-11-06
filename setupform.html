@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset = "utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pawggers</title>
+    <link rel="stylesheet" href = "style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" integrity="sha512-5fsy+3xG8N/1PV5MIJz9ZsWpkltijBI48gBzQ/Z2eVATePGHOkMIn+xTDHIfTZFVb9GMpflF2wOWItqxAP2oLQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="mainframe1">
+
+        <form class="subframe1">
+            <h1 class="title">Please Fill out the following Details:</h1>
+    
+            <div class="inputgroup">
+                <p class="selector">Please Select an Age Range for your dog:</p>
+                <button type="button" class="loginbutton1" id="Age1" onclick="lgb1()">Puppy</button>
+                <button type="button" class="loginbutton1" id="Age2" onclick="lgb2()">Adult</button>
+                <button type="button" class="loginbutton1" id="Age3" onclick="lgb3()">Senior</button>
+            </div> 
+    
+            <div class="inputgroup">
+                <p class="selector">Please Select a Gender for your dog:</p>
+                <button type="button" class="loginbutton1" id="male" onclick="lgb4()">Male</button>
+                <button type="button" class="loginbutton1" id="female" onclick="lgb5()">Female</button>
+                
+            </div> 
+            <div class="inputgroup"> 
+                <p class="selector">PLease Select the Best Size for your dog: </p>
+                <button type="button" class="loginbutton1" id="size" onclick="lgb6()">Small</button>
+                <button type="button" class="loginbutton1" id="size" onclick="lgb7()">Medium</button>
+                <button type="button" class="loginbutton1" id="size" onclick="lgb8()">Large</button>
+            </div> 
+            <div class="inputgroup">
+                <p class="selector">Please Select the option that best suites your Dog's Activity Levels:</p>
+                <button type="button" class="loginbutton1" id="activity" onclick="lgb9()">Low</button>
+                <button type="button" class="loginbutton1" id="activity" onclick="lgb10()">Medium</button>
+                <button type="button" class="loginbutton1" id="activity" onclick="lgb11()">High</button>
+            </div>
+            
+            <div id="userTraceback"></div>
+        </form>
+    
+    
+    </div>
+
+    <div>
+        <ul>
+            <a href="email.html"><button type="button" class="loginbutton1">Next</button></a>
+        </ul>
+    </div>
+
+    
+    <script>
+
+        userMessage = []
+        document.getElementById("userTraceback").innerHTML = userMessage
+
+
+        function lgb1(){
+            userMessage.push("Puppy");
+            return;
+        }
+        function lgb2(){
+            userMessage.push("Adult");
+            return;
+        }
+        function lgb3(){
+            userMessage.push("Senior");
+            return;
+        }
+        function lgb4(){
+            userMessage.push("MALE");
+            return;
+        }
+        function lgb5(){
+            userMessage.push("FEMALE");
+            return;
+        }
+        function lgb6(){
+            userMessage.push("small");
+            return;
+        }
+        function lgb7(){
+            userMessage.push("medium");
+            return;
+        }
+        function lgb8(){
+            userMessage.push("large");
+            return;
+        }
+        function lgb9(){
+            userMessage.push("LOW");
+            return;
+        }
+        function lgb10(){
+            userMessage.push("MEDIUM");
+            return;
+        }
+        function lgb11(){
+            userMessage.push("HIGH");
+            return;
+        }
+    </script>
+
+    <script src="main.js"></script>
+</body>
+</html>

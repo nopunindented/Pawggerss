@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset = "utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pawggers</title>
+    <link rel="stylesheet" href = "style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" integrity="sha512-5fsy+3xG8N/1PV5MIJz9ZsWpkltijBI48gBzQ/Z2eVATePGHOkMIn+xTDHIfTZFVb9GMpflF2wOWItqxAP2oLQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+
+<div class="mainframe">
+    <!--User login, returning user-->
+    <form class="subframe" id="userlogin">
+        <h1 class="title">User Login</h1>
+
+        <!--The Following div is for email inputs-->
+        <div class="inputgroup">
+            <input type="text" id ="getEmail" class="incoming" autofocus placeholder="Email">
+        </div> 
+
+        <!--The Following div is for password inputs-->
+        <div class="inputgroup">
+            <input type="password" id ="getPassword" class="incoming" autofocus placeholder="Password">
+        </div>
+
+        <!--The Following buttong is for login-->
+        <a href="sumpage.html"><button class="loginbutton" type="button" onclick=`beginLogin()`>Login</button></a>
+
+        <!--The Following is for the link for create account-->
+        <a href="newuser.html" id="linkCreateAcc" class="newAcc">Create New Account</a>
+
+    </form>
+
+</div>
+
+    <script>
+        var dictOfUsers = [
+            //{email: "raghav4", password:"yellow"},
+            //{email: "Hetang2", password:"blue"},
+            {email: "", password: ""}
+        ]
+
+        //returning user
+        function beginLogin() {
+            //get info. from user
+            let inputEmail = document.getElementById("getEmail").value;
+            let inputPassword = document.getElementById("getPassword").value;
+
+            for (let i = 0; i <= dictOfUsers.length; i++){
+                //going to check whether or not the email exists in the dictOfUsers variable
+                if(inputEmail == dictOfUsers[i].email && inputPassword == dictOfUsers[i].password){
+                    //ID is found
+                    console.log("YOU'RE ID EXISTS IN THE SYSTEM");
+                    return;
+                } else if(inputEmail == dictOfUsers[i].email && inputPassword != dictOfUsers[i].password){
+                    console.log("your account exists, but your password is wrong.");
+                    return;
+                }
+            }
+
+        }
+
+        function registerUser(){
+            let registerEmail = document.getElementById("getNewEmail").value;
+            let registerPassword = document.getElementById("getNewPassword").value;
+
+            for (let i=0; i <= dictOfUsers.length; i++){
+                if(registerEmail == dictOfUsers[i].email){
+                    alert("email already is use, pick another.");
+                    return;
+                }
+                else{
+                    dictOfUsers.push({email: registerEmail, password: registerPassword});
+                    console.log(dictOfUsers);
+                    return;
+                }
+            }
+
+        }
+    </script>
+</body>
+</html>

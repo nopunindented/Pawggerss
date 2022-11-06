@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset = "utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pawggers</title>
+    <link rel="stylesheet" href = "style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" integrity="sha512-5fsy+3xG8N/1PV5MIJz9ZsWpkltijBI48gBzQ/Z2eVATePGHOkMIn+xTDHIfTZFVb9GMpflF2wOWItqxAP2oLQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+
+<div class="mainframe">
+    <!--New user, need to create account-->
+    <form class="subframe" id="CreateAcc">
+        <h1 class="title">Create Account</h1>
+
+        <!--The Following div is for email inputs-->
+        <div class="inputgroup">
+            <input type="text" class="incoming" id="getNewEmail" autofocus placeholder="Email">
+        </div> 
+
+        <!--The Following div is for password inputs-->
+        <div class="inputgroup">
+            <input type="password" class="incoming" id="getNewPassword" autofocus placeholder="Password">
+        </div>
+
+        <!--The Following buttong is for creating account-->
+        <a href="setupform.html"><button class="loginbutton" type="button" onclick='registerUser()'>Continue</button></a>
+
+        <!--The Following is for the link to return back to login page-->
+        <a href="olduser.html" id="linkuserlogin" class="newAcc">Already Have an Account? Sign In</a>
+    </form>
+
+
+</div>
+
+    <script>
+        var dictOfUsers = [
+        //{email: "raghav4", password:"yellow"},
+        //{email: "Hetang2", password:"blue"},
+        {email: "", password: ""}
+    ]
+
+    function registerUser(){
+        let registerEmail = document.getElementById("getNewEmail").value;
+        let registerPassword = document.getElementById("getNewPassword").value;
+
+        for (let i=0; i <= dictOfUsers.length; i++){
+            if(registerEmail == dictOfUsers[i].email){
+                alert("email already is use, pick another.");
+                return;
+            }
+            else{
+                dictOfUsers.push({email: registerEmail, password: registerPassword});
+                console.log(dictOfUsers);
+                return;
+            }
+        }
+
+    }
+
+    </script>
+</body>
+</html>

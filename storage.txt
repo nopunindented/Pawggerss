@@ -1,0 +1,49 @@
+all the following was for button and header formatting.....used CSS: 
+
+nav {
+    width: 100%;
+    height: 100px;
+}
+
+.untubuntu{
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  list-style: none;
+  margin-left: 2rem; 
+  letter-spacing: 2px;
+  width:fit-content; 
+  
+}
+
+.btn-group button {
+  background-color: black; 
+  border: 1px solid black; 
+  color: white; 
+  cursor: pointer; 
+  display: inline-block;
+}
+
+.btn-group button:hover {
+  background-color: grey;
+}
+
+.mainheader{
+  font-size: 55pt;
+  text-transform: uppercase;
+  font-family: 'Times New Roman', Times, serif; 
+  margin-left: 2rem;
+  margin-top: -1rem;
+}
+
+.wrap{
+  position:absolute;
+  background-color: white;
+  width:100%;
+}
+
+-------------------------------------------EOF-------------------------------------
+
+
