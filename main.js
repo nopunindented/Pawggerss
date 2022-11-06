@@ -100,7 +100,6 @@ document.getElementById('inputCreator').addEventListener('click', function() {
 //    Age:"", Gender: "", Activity:"", Size:""
 //}]
 userMessage = []
-document.getElementById("userTraceback").innerHTML = userMessage
 
 
 function lgb1(){
@@ -136,3 +135,4 @@ function lgb10(){
 function lgb11(){
     userMessage.push("HIGH");
 }
+document.getElementById("userTraceback").innerHTML = userMessage
