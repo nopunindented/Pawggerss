@@ -1,0 +1,30 @@
+/Users/ohmpanchal/HackED Beta/PawMailer/PawMailer/bin/Debug/net6.0/PawMailer
+/Users/ohmpanchal/HackED Beta/PawMailer/PawMailer/bin/Debug/net6.0/PawMailer.deps.json
+/Users/ohmpanchal/HackED Beta/PawMailer/PawMailer/bin/Debug/net6.0/PawMailer.runtimeconfig.json
+/Users/ohmpanchal/HackED Beta/PawMailer/PawMailer/bin/Debug/net6.0/PawMailer.dll
+/Users/ohmpanchal/HackED Beta/PawMailer/PawMailer/bin/Debug/net6.0/PawMailer.pdb
+/Users/ohmpanchal/HackED Beta/PawMailer/PawMailer/obj/Debug/net6.0/PawMailer.csproj.AssemblyReference.cache
+/Users/ohmpanchal/HackED Beta/PawMailer/PawMailer/obj/Debug/net6.0/PawMailer.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ohmpanchal/HackED Beta/PawMailer/PawMailer/obj/Debug/net6.0/PawMailer.AssemblyInfoInputs.cache
+/Users/ohmpanchal/HackED Beta/PawMailer/PawMailer/obj/Debug/net6.0/PawMailer.AssemblyInfo.cs
+/Users/ohmpanchal/HackED Beta/PawMailer/PawMailer/obj/Debug/net6.0/PawMailer.csproj.CoreCompileInputs.cache
+/Users/ohmpanchal/HackED Beta/PawMailer/PawMailer/obj/Debug/net6.0/PawMailer.dll
+/Users/ohmpanchal/HackED Beta/PawMailer/PawMailer/obj/Debug/net6.0/refint/PawMailer.dll
+/Users/ohmpanchal/HackED Beta/PawMailer/PawMailer/obj/Debug/net6.0/PawMailer.pdb
+/Users/ohmpanchal/HackED Beta/PawMailer/PawMailer/obj/Debug/net6.0/PawMailer.genruntimeconfig.cache
+/Users/ohmpanchal/HackED Beta/PawMailer/PawMailer/obj/Debug/net6.0/ref/PawMailer.dll
+/Users/ohmpanchal/HackED Beta/Pawggers/Dog Classifier'/PawMailer/PawMailer/bin/Debug/net6.0/PawMailer
+/Users/ohmpanchal/HackED Beta/Pawggers/Dog Classifier'/PawMailer/PawMailer/bin/Debug/net6.0/PawMailer.deps.json
+/Users/ohmpanchal/HackED Beta/Pawggers/Dog Classifier'/PawMailer/PawMailer/bin/Debug/net6.0/PawMailer.runtimeconfig.json
+/Users/ohmpanchal/HackED Beta/Pawggers/Dog Classifier'/PawMailer/PawMailer/bin/Debug/net6.0/PawMailer.dll
+/Users/ohmpanchal/HackED Beta/Pawggers/Dog Classifier'/PawMailer/PawMailer/bin/Debug/net6.0/PawMailer.pdb
+/Users/ohmpanchal/HackED Beta/Pawggers/Dog Classifier'/PawMailer/PawMailer/obj/Debug/net6.0/PawMailer.csproj.AssemblyReference.cache
+/Users/ohmpanchal/HackED Beta/Pawggers/Dog Classifier'/PawMailer/PawMailer/obj/Debug/net6.0/PawMailer.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ohmpanchal/HackED Beta/Pawggers/Dog Classifier'/PawMailer/PawMailer/obj/Debug/net6.0/PawMailer.AssemblyInfoInputs.cache
+/Users/ohmpanchal/HackED Beta/Pawggers/Dog Classifier'/PawMailer/PawMailer/obj/Debug/net6.0/PawMailer.AssemblyInfo.cs
+/Users/ohmpanchal/HackED Beta/Pawggers/Dog Classifier'/PawMailer/PawMailer/obj/Debug/net6.0/PawMailer.csproj.CoreCompileInputs.cache
+/Users/ohmpanchal/HackED Beta/Pawggers/Dog Classifier'/PawMailer/PawMailer/obj/Debug/net6.0/PawMailer.dll
+/Users/ohmpanchal/HackED Beta/Pawggers/Dog Classifier'/PawMailer/PawMailer/obj/Debug/net6.0/refint/PawMailer.dll
+/Users/ohmpanchal/HackED Beta/Pawggers/Dog Classifier'/PawMailer/PawMailer/obj/Debug/net6.0/PawMailer.pdb
+/Users/ohmpanchal/HackED Beta/Pawggers/Dog Classifier'/PawMailer/PawMailer/obj/Debug/net6.0/PawMailer.genruntimeconfig.cache
+/Users/ohmpanchal/HackED Beta/Pawggers/Dog Classifier'/PawMailer/PawMailer/obj/Debug/net6.0/ref/PawMailer.dll
