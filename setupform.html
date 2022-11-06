@@ -18,28 +18,28 @@
     
             <div class="inputgroup">
                 <p class="selector">Please Select an Age Range for your dog:</p>
-                <button type="button" class="loginbutton1" id="Age1" onclick="lgb1()">Puppy</button>
-                <button type="button" class="loginbutton1" id="Age2" onclick="lgb2()">Adult</button>
-                <button type="button" class="loginbutton1" id="Age3" onclick="lgb3()">Senior</button>
+                <button type="button" class="loginbutton1" id="script" onclick="exec(python3 puppy.py)">Puppy</button>
+                <button type="button" class="loginbutton1" id="script" onclick="exec(python3 adult.py)">Adult</button>
+                <button type="button" class="loginbutton1" id="script" onclick="exec(python3 senior.py)">Senior</button>
             </div> 
     
             <div class="inputgroup">
                 <p class="selector">Please Select a Gender for your dog:</p>
-                <button type="button" class="loginbutton1" id="male" onclick="lgb4()">Male</button>
-                <button type="button" class="loginbutton1" id="female" onclick="lgb5()">Female</button>
+                <button type="button" class="loginbutton1" id="script" onclick="exec(python3 male.py)">Male</button>
+                <button type="button" class="loginbutton1" id="script" onclick="exec(python3 female.py)">Female</button>
                 
             </div> 
             <div class="inputgroup"> 
                 <p class="selector">PLease Select the Best Size for your dog: </p>
-                <button type="button" class="loginbutton1" id="size" onclick="lgb6()">Small</button>
-                <button type="button" class="loginbutton1" id="size" onclick="lgb7()">Medium</button>
-                <button type="button" class="loginbutton1" id="size" onclick="lgb8()">Large</button>
+                <button type="button" class="loginbutton1" id="script" onclick="exec(python3 small.py)">Small: x-y lbs</button>
+                <button type="button" class="loginbutton1" id="script" onclick="exec(python3 medium.py)">Medium: x-y lbs</button>
+                <button type="button" class="loginbutton1" id="script" onclick="exec(python3 large.py)">Large: x-y lbs</button>
             </div> 
             <div class="inputgroup">
                 <p class="selector">Please Select the option that best suites your Dog's Activity Levels:</p>
-                <button type="button" class="loginbutton1" id="activity" onclick="lgb9()">Low</button>
-                <button type="button" class="loginbutton1" id="activity" onclick="lgb10()">Medium</button>
-                <button type="button" class="loginbutton1" id="activity" onclick="lgb11()">High</button>
+                <button type="button" class="loginbutton1" id="script" onclick="exec(python3 low.py)">Low</button>
+                <button type="button" class="loginbutton1" id="script" onclick="exec(python3 average.py)">Medium</button>
+                <button type="button" class="loginbutton1" id="script" onclick="exec(python3 active.py)">High</button>
             </div>
             
             <div id="userTraceback"></div>
@@ -53,59 +53,6 @@
             <a href="email.html"><button type="button" class="loginbutton1">Next</button></a>
         </ul>
     </div>
-
-    
-    <script>
-
-        userMessage = []
-        document.getElementById("userTraceback").innerHTML = userMessage
-
-
-        function lgb1(){
-            userMessage.push("Puppy");
-            return;
-        }
-        function lgb2(){
-            userMessage.push("Adult");
-            return;
-        }
-        function lgb3(){
-            userMessage.push("Senior");
-            return;
-        }
-        function lgb4(){
-            userMessage.push("MALE");
-            return;
-        }
-        function lgb5(){
-            userMessage.push("FEMALE");
-            return;
-        }
-        function lgb6(){
-            userMessage.push("small");
-            return;
-        }
-        function lgb7(){
-            userMessage.push("medium");
-            return;
-        }
-        function lgb8(){
-            userMessage.push("large");
-            return;
-        }
-        function lgb9(){
-            userMessage.push("LOW");
-            return;
-        }
-        function lgb10(){
-            userMessage.push("MEDIUM");
-            return;
-        }
-        function lgb11(){
-            userMessage.push("HIGH");
-            return;
-        }
-    </script>
 
     <script src="main.js"></script>
 </body>
