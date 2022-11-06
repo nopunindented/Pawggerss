@@ -13,13 +13,12 @@
 </head>
 <body>
     <div class="mainframe">
-        <h2>Please type in your Email for reminders.</h2>
-        <input class="incoming" id="numemail">
-        <button id="inputCreator" class="loginbutton">Click to Save Email For Reminders</button>
-        <div id="container"></div>
+        <h2>Please type in your Email for Reminders.</h2>
+        <div class="inputgroup">
+            <input type="text" id ="emailremind" class="incoming" autofocus placeholder="Email">
+        </div>
     
     </div>
-
 
     <div>
         <ul>
@@ -27,6 +26,10 @@
         </ul>
     </div>
 
-    <script src="main.js"></script>
+    <script type="text/javascript">
+        var x= [];
+        var email = document.getElementById("emailremind").value;
+        x.push(email);
+    </script>
 </body>
 </html>
